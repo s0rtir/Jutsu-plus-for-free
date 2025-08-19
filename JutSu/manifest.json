@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Удаление элемента",
+  "version": "1.0",
+  "description": "Прячет или удаляет элемент на моей странице",
+  "content_scripts": [
+    {
+      "matches": ["https://jut.su/bleeach/season-1/episode-77.html"], 
+      "js": ["content.js"]
+    }
+  ]
+}
